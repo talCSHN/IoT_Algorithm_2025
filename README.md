@@ -37,7 +37,8 @@ IoT 개발자 과정 자료구조/알고리즘(코딩테스트) Repository
 ## 2일차
 
 - 기초 문법
-    - 리스트 컴프리헨션
+    - 리스트 컴프리헨션 : [노트북](./day02/da01_list_again.ipynb)
 
 - 자료구조
-    - 선형 리스트부터 원형 리스트까지
+    - 선형 리스트 : [노트북](./day02/da02_linear_list.ipynb)
+    - 연결 리스트 : [노트북](./day02/da04_linked_list.ipynb)
