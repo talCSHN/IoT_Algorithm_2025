@@ -76,7 +76,10 @@ if __name__ == '__main__':
     while True:
         if delName == current.data: # 삭제할 때
 
-            if current.left == None and current.right == None:  # 리프노드
+            if parent == None:
+                    print('최상위 노드는 삭제 불가')
+                    break
+            elif current.left == None and current.right == None:  # 리프노드
                 if parent.left == current:
                     parent.left = None
                 else:
@@ -89,10 +92,7 @@ if __name__ == '__main__':
                     parent.right = current.left
                 del(current)
             elif current.left == None and current.right != None: # 오른쪽 노드에 자식이 있고, 왼쪽에는 없을때
-                if parent == None:
-                    print('최상위 노드는 삭제 불가')
-                    break
-                elif parent.left == current:
+                if parent.left == current:
                     parent.left = current.right
                 else:
                     parent.right = current.right
