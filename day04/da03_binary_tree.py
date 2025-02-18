@@ -92,7 +92,7 @@ if __name__ == '__main__':
                 if parent.left == current:
                     parent.left = current.right
                 else:
-                    parent.right = current.left
+                    parent.right = current.right
                 del(current)
             print(f'{delName} 삭제함')
             break
