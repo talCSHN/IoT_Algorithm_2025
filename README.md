@@ -80,6 +80,7 @@ IoT 개발자 과정 자료구조/알고리즘(코딩테스트) Repository
     - 재귀호출
         - 재귀호출 연습 : [노트북](./day06/da01_recursive_practice.ipynb)
         - 프랙탈 연습
+![da001](https://github.com/user-attachments/assets/a28394cb-4f08-4b1a-a94f-e1510fca2d6b)
 
 
     - 정렬 : [노트북](./day06/da04_sort.ipynb)
